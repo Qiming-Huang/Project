@@ -26,10 +26,10 @@ if args.url != 0 and args.name != 0:
     ts_all_path = os.path.join(main_path, url)
 
     ts_data = requests.get(ts_all_path).text
-    with open("ts.txt", "w") as fr:
+    with open("video/ts.txt", "w") as fr:
         fr.write(ts_data)
 
-    with open("ts.txt", "r") as fr:
+    with open("video/ts.txt", "r") as fr:
         content = fr.readlines()
 
     for i in content:
