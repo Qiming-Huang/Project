@@ -6,3 +6,5 @@ For example https://cdn.605-zy.com/20210520/L9uraiJf/index.m3u8
 ```bash
 python download.py -u https://cdn.605-zy.com/20210520/L9uraiJf/index.m3u8 -n "output.mp4"
 ```
+## requirement
+- ffmpeg (install in your linux)
