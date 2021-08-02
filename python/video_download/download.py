@@ -13,6 +13,8 @@ class Downloader():
         self.video_name = video_name
         self.speed = None
         self.status_code = None
+        if not os.path.exists("video"):
+            os.mkdir("video")
 
     def get_all_ts(self):
         ts_download_url = []
